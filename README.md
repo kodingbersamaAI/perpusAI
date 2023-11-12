@@ -1,11 +1,6 @@
 # perpusAI
 Aplikasi perpus mini sederhana dengan tampilan Bootsrap AdminLTE
-
-
-Selamat datang di repo Koding bersama AI. 
-
-Tentang Aplikasi PerpusAI
-Merupakan aplikasi berbahasa php untuk manajemen koleksi buku di perpustakaan. Dibuat dengan tampilan Bootsrap AdminLTE.
+-----------
 
 Petunjuk Penggunaan PerpusAI
 1. Download repo
@@ -14,7 +9,7 @@ Petunjuk Penggunaan PerpusAI
 4. Buat mysql dengan nama perpusai
 5. Import SQL yang berada di folder sql
 6. Jalankan
-
+-----------
 Informasi Akun Login
-Pustakawan = admin|admin
-Pengunjung = user/user
+1. Pustakawan = admin|admin
+2. Pengunjung = user/user
