@@ -11,7 +11,7 @@ Petunjuk Penggunaan PerpusAI
 6. Jalankan
 -----------
 
-Link Demo : koding-bersama-ai.great-site.net/perpus-mini
+Link Demo : https://koding-bersama-ai.great-site.net/perpus-mini
 
 -----------
 Informasi Akun Login
