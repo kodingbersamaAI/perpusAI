@@ -10,6 +10,10 @@ Petunjuk Penggunaan PerpusAI
 5. Import SQL yang berada di folder sql
 6. Jalankan
 -----------
+
+Link Demo : koding-bersama-ai.great-site.net/perpus-mini
+
+-----------
 Informasi Akun Login
 1. Pustakawan = admin|admin
 2. Pengunjung = user/user
