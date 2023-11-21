@@ -42,7 +42,7 @@ if (isset($_SESSION['username'])) {
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-8 offset-md-2">
-            <form onsubmit="submitForm()">
+            <form onsubmit="submitForm(event)">
               <div class="input-group">
                 <input type="search" class="form-control" id="judul" name="judul" placeholder="Tulis kata kunci di sini">            
                 <div class="input-group-append">
@@ -221,10 +221,12 @@ $(document).ready(function() {
 </script>
 
 <script>
-  function submitForm() {
+  function submitForm(event) {
+    event.preventDefault(); // Tambahkan ini untuk mencegah pengiriman formulir default
     const judulValue = document.getElementById('judul').value;
     const form = document.querySelector('form');
     form.action = `detail-buku.php?judul=${judulValue}`;
+    form.submit(); // Mungkin perlu mengirimkan formulir secara manual setelah mengubah action
   }
 </script>
 
